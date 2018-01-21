@@ -7,4 +7,10 @@ bot.on("ready", function() {
     console.log("Le bot a bien été connecté")
 });
 
-bot.login(process.env.TOKEN);
+bot.login("NDA0NDM4MTg2MTY5NzI5MDI0.DUV34g.hQyC6ebWCj5Zp08YFgWApicH3XA");
+
+bot.on('message', message => {
+    if (message.content === 'ping') {
+      message.reply('pong !')
+    }
+  }
