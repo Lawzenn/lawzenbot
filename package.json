@@ -4,7 +4,7 @@
   "description": "Bonjour bienvenue sur LawzennBot",
   "main": "index.js",
   "scripts": {
-    "test": "*help"
+    "test": "!help"
   },
   "author": "Lawzenn",
   "license": "ISC",
