@@ -4,7 +4,7 @@ var bot = new Discord.Client();
 
 bot.on("ready", function() {
     bot.user.setGame("ByLawzenn, !help")
-    console.log("Le bot a bien été connecté");
+    console.log("Le bot a bien été connecté")
 
     
 bot.on('message', message => {
