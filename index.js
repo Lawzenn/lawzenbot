@@ -12,7 +12,6 @@ bot.login("NDA0NDM4MTg2MTY5NzI5MDI0.DUV34g.hQyC6ebWCj5Zp08YFgWApicH3XA");
 
 
 bot.on('message', message => {
-  if (message.content === 'help') {
-    message.reply('L'aide est en devellopement' )
+  if (message.content === prefix + "help"){
+      message.channel.sendMessage("Liste des commandes: \n -"help");
   }
-})
